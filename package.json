@@ -2,7 +2,8 @@
   "name": "847-repro",
   "description": "A minimal reproduction of https://github.com/apollographql/graphql-tools/issues/847",
   "scripts": {
-    "start": "node --inspect build/index.js",
+    "start": "node build/index.js",
+    "debug": "node --inspect-brk build/index.js",
     "compile": "tsc",
     "pretest": "npm run compile",
     "lint": "tslint \"src/**/*.ts\""
