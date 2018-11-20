@@ -8,9 +8,6 @@ type Item {
 }`});
 
 const extendingSchemaGQLTag = gql`
-extend type Item {
-  cost: Float
-}
 type Query {
   findItemCostMoreThan(giveCost: Float): [Item]
 }`;
