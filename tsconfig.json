@@ -1,0 +1,25 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+        "target": "es2018",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "lib": ["esnext", "dom"],
+        "sourceMap": true,
+        "outDir": "build",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "removeComments": true,
+        "typeRoots": [
+            "./node_modules/@types"
+        ],
+        "esModuleInterop": true
+    },
+    "exclude": [
+        "node_modules",
+        "lib",
+        "dist"
+    ],
+    "buildOnSave": false,
+    "atom": { "rewriteTsconfig": false }
+}
